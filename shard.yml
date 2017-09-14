@@ -1,0 +1,9 @@
+name: crystal-sandbox
+version: 0.1.0
+
+authors:
+  - otofu-square <yukita@feedforce.jp>
+
+crystal: 0.23.1
+
+license: MIT
