@@ -1,5 +1,8 @@
-require "./crystal-sandbox/*"
+require "kemal"
+logging false
 
-module Crystal::Sandbox
-  # TODO Put your code here
+get "/" do
+  "Hello World"
 end
+
+Kemal.run
