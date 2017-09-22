@@ -12,3 +12,6 @@ dependencies:
   kemal:
     github: kemalcr/kemal
     branch: master
+  icr:
+    github: crystal-community/icr
+    branch: master
