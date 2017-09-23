@@ -1,4 +1,5 @@
 require "kemal"
+
 logging false
 
 get "/" do

@@ -10,7 +10,7 @@ RUN apt-get upgrade
 RUN shards install
 
 # Build our app
-RUN crystal build src/crystal-sandbox.cr --release --no-debug
+RUN crystal build src/main.cr --release --no-debug
 
 EXPOSE 3000
 
