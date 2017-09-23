@@ -15,3 +15,6 @@ dependencies:
   icr:
     github: crystal-community/icr
     branch: master
+  mongo:
+    github: datanoise/mongo.cr
+    branch: master
