@@ -13,5 +13,3 @@ RUN shards install
 RUN crystal build src/main.cr --release --no-debug
 
 EXPOSE 3000
-
-CMD ./app
