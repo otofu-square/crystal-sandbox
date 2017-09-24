@@ -8,6 +8,7 @@ services:
       - .:/app
     links:
       - mongo
+    command: crystal run src/main.cr
   mongo:
     image: mongo:latest
     environment:
